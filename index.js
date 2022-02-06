@@ -1,4 +1,8 @@
-class table{}
+class Table{
+  constructor(){
+
+  }
+}
 const table = new Table({
   columns: ['Name', 'Email', 'Phone Number'],
   data: [
@@ -6,8 +10,10 @@ const table = new Table({
     ['Nasya', 'Nasya15@gmail.com',   '082263519356']
   ]
 });
-const library = document.getElementById("library");
-table.render(library);
+
+
+const app=document.getElementById("app");
+table.render(app);
 /*.updateConfig({
   columns: ['Name', 'Email', 'Phone Number'],
 });*/
